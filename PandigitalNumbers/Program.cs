@@ -33,7 +33,7 @@ namespace PandigitalNumbers
                         {
                             if (!AreDigitsUnique(div7) || div7 % 100 != div11 / 10) continue; 
 
-                            for (int div5 = 015; div5 <= 978; div5 += 5) //is divisible by 5
+                            for (int div5 = 015; div5 <= 987; div5 += 5) //is divisible by 5
                             {
                                 if (!AreDigitsUnique(div5) || div5 % 100 != div7 / 10) continue;
 
